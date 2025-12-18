@@ -4,32 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .topnav {
-        overflow: hidden;
-        background-color: #333;
-      }
-      .topnav a {
-        float: left;
-        color: #1affa3;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      .topnav a.active {
-        background-color: #ffe066;
-        color: black;
-      }
-    </style>
+    <link rel="stylesheet" href="Style.CSS" />
   </head>
   <body>
     <div class="topnav">
@@ -38,5 +13,31 @@
       <a href="#">Gallery</a>
       <a href="#">Contact_Us</a>
     </div>
+    <!-- Part 2 slider-->
+    <h1>My favorite slider</h1>
+    <div class="carousel-container">
+      <img
+        class="myslides"
+        src="https://i.ibb.co/d4WMFtKn/pic1.jpg"
+        height="300"
+        width="300"
+        alt="Slide 1"
+      />
+      <img
+        class="myslides"
+        src="https://i.ibb.co/zVRDPdwM/pic2.jpg"
+        height="300"
+        width="300"
+        alt="Slide 2"
+      />
+      <img
+        class="myslides"
+        src="https://i.ibb.co/chc1zdXz/pic3.jpg"
+        height="300"
+        width="300"
+        alt="Slide 3"
+      />
+    </div>
+    <script src="Script.JS"></script>
   </body>
 </html>
